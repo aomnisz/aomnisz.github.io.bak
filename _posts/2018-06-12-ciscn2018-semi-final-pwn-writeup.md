@@ -77,7 +77,7 @@ print io.recv()
 io.interactive()
 ```
 
-[题目源文件下载地址](/assets/posts/2018-06-12-ciscn2018-pwn-writeup/mirage_game.zip)
+[题目源文件下载地址](/assets/posts/2018-06-12-ciscn2018-semi-final-pwn-writeup/mirage_game.zip)
 
 ## pwn (pwn1)
 
@@ -147,7 +147,7 @@ print io.recv()
 payload += p32(75) + b'().__class__.__bases__[0].__subclasses__()[40](\\\"/home/ciscn/flag\\\").read()'
 ```
 
-[题目源文件下载地址](/assets/posts/2018-06-12-ciscn2018-pwn-writeup/pwn.zip)
+[题目源文件下载地址](/assets/posts/2018-06-12-ciscn2018-semi-final-pwn-writeup/pwn.zip)
 
 ## 其他需要注意的
 
